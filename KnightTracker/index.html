@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Xoriant Screening Test - Knight Tracker</title>
+        <link href="style.css" rel="stylesheet" type="text/css"></link>
+    </head>
+    <body>
+        <h1>The Knight Tracker</h1>
+        <h4>This app gives you all possible moves for a knight from the given position on the chess board.</h4>
+        <div class="xrnt-input-container">
+            <div class="xrnt-inp xrnt-no-inp">
+                <input class="xrnt-x" type="number" min=1 placeholder="Enter starting X-cordinate of the Knight"/>
+            </div>
+            <div class="xrnt-inp xrnt-no-inp">
+                <input class="xrnt-y" type="number" min=1 placeholder="Enter starting Y-cordinate of the Knight"/>
+            </div>
+            <div class="xrnt-inp xrnt-no-inp">
+                <input class="xrnt-size" type="number" min=1 placeholder="Enter size of the chessboard"/>
+            </div>
+
+            <div class="xrnt-inp">
+                <input class="xrnt-btn" type="button" value="Track"/>
+            </div>
+        </div>
+
+        <div class="xrnt-moves">
+            <p>Please open the console log and check the co-ordinates</p>
+        </div>
+    </body>
+    <footer>
+        <script src="jquery.min.js"></script>
+        <script src="app.js"></script>
+    </footer>
+</html>
